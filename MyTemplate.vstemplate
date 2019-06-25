@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Windows Forms</Name>
+    <Description>&lt;Нет описания&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Windows Forms</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectCLi.vcxproj" File="ProjectCLi.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">ProjectCLi.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MyForm.cpp">MyForm.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MyForm.h">MyForm.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MyForm.resx">MyForm.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MyForm.resx">vstg0004.resx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
